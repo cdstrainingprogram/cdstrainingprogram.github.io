@@ -1,88 +1,122 @@
 <html>
   <head>
     <title>Cornell Data Science Training Program</title>
+    <style>
+    body, html {
+      font-family:"Hind" !important;
+    }
+    </style>
+    <link href="static/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Hind" rel="stylesheet">
   </head>
   <body>
-    <h1>INFO 4900: Cornell Data Science Training Program</h1>
-    <h3>Gates G01 &middot; 5-6 PM Wednesdays</h3>
-    <hr/>
-    <p><b>Instructor:</b> Dae Won Kim (dk444)</p>
-    <p><b>TAs:</b> <ul>
-      <li> Amit Mizrahi (am2269)</li>
-      <li> Chase Thomas (cft32)</li>
-      <li> Jared Lim (jl3248) </li>
-      <li> Kenta Takatsu (kt426) </li>
-    </ul>
-    <p><b>Helpful links:</b>
-      <a href="https://piazza.com/cornell/spring2017/info4900">Piazza</a>
-      <a href="https://cms.csuglab.cornell.edu">CMS</a>
-      <a href="http://bit.ly/CDStrainingprogram">Syllabus</a>
-    </p>
-    <hr/>
-    <h3>Schedule</h3>
-    <table>
-      <tr>
-        <th>Date</th>
-        <th>Lecture Slides</th>
-        <th>Lecture Notes</th>
-        <th>Assignment</th>
-      </tr>
-      <tr>
-        <td>02/15/17</td>
-        <td><a href="#">Lecture 1: Introduction to R</a></td>
-        <td><a href="#">Lecture 1: Introduction to R</a></td>
-        <td><a href="#">Assignment 1</a></td>
-      </tr>
-      <!-- <tr>
-        <td>02/22/17</td>
-        <td><a href="#">Lecture 2: Data Wrangling</a></td>
-        <td><a href="#">Lecture 2: Data Wrangling</a></td>
-        <td><a href="#">Assignment 2</a></td>
-      </tr> <tr>
-        <td>03/01/17</td>
-        <td><a href="#">Lecture 3: Data Visualization</a></td>
-        <td><a href="#">Lecture 3: Data Visualization</a></td>
-        <td><a href="#">Assignment 3</a></td>
-      </tr> <tr>
-        <td>03/08/17</td>
-        <td><a href="#">Lecture 4: Linear Regression</a></td>
-        <td><a href="#">Lecture 4: Linear Regression</a></td>
-        <td><a href="#">Project 1</a></td>
-      </tr> <tr>
-        <td>03/15/17</td>
-        <td><a href="#">Lecture 5: Logistic Regression</a></td>
-        <td><a href="#">Lecture 5: Logistic Regression</a></td>
-        <td><a href="#">Project 1</a></td>
-      </tr> <tr>
-        <td>03/22/17</td>
-        <td><a href="#">Lecture 6: Classification</a></td>
-        <td><a href="#">Lecture 6: Classification</a></td>
-        <td><a href="#">Project 1</a></td>
-      </tr> <tr>
-        <td>03/29/17</td>
-        <td><a href="#">Lecture 7: Unsupervised Learning</a></td>
-        <td><a href="#">Lecture 7: Unsupervised Learning</a></td>
-        <td><a href="#">Project 2</a></td>
-      </tr> <tr>
-        <td>04/07/17</td>
-        <td><a href="#">Lecture 8: Model Selection and Optimization</a></td>
-        <td><a href="#">Lecture 8: Model Selection and Optimization</a></td>
-        <td><a href="#">Project 2</a></td>
-      </tr> <tr>
-        <td>04/15/17</td>
-        <td><a href="#">Lecture 9: Meta-Learning </a></td>
-        <td><a href="#">Lecture 9: Meta-Learning</a></td>
-        <td><a href="#">Project 2</a></td>
-      </tr>  <tr>
-        <td>04/22/17</td>
-        <td><a href="#">Lecture 10: Text Analysis</a></td>
-        <td><a href="#">Lecture 10: Text Analysis</a></td>
-        <td><a href="#">Project 2</a></td>
-      </tr> <tr>
-        <td>04/29/17</td>
-        <td><a href="#">Lecture 11: Big Data</a></td>
-        <td><a href="#">Lecture 11: Big Data</a></td>
-        <td><a href="#">Project 2</a></td>
-      </tr> -->
-    </table>
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="#" class="navbar-brand">CDS Training Program</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#">Syllabus</a></li>
+            <li><a href="#">Piazza</a></li>
+            <li><a href="#">CMS</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div style="margin-top:80px;"></div>
+    <div class="container">
+      <div class="row">
+        <h1>Cornell Data Science Training Program</h1>
+        <h3>Gates G01 &middot; 5-6 PM Wednesdays</h3>
+      </div>
+      <hr/>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="panel-body">
+            <h4>Instructor</h4>
+
+            <p>Dae Won Kim (<a href="mailto:dk444@cornell.edu">dk444</a>)</p>
+          </div>
+          <div class="panel-body">
+            <h4>Teaching Associates</h4>
+            <p> Amit Mizrahi (<a href="mailto:dk444@cornell.edu">am2269</a>)</p>
+            <p> Chase Thomas (<a href="mailto:dk444@cornell.edu">cft32</a>)</p>
+            <p> Jared Lim (<a href="mailto:dk444@cornell.edu">jl3248</a>) </p>
+            <p> Kenta Takatsu (<a href="mailto:dk444@cornell.edu">kt426</a>) </p>
+        </div>
+        </div>
+        <div class="col-md-8">
+            <img src="static/img/daewon.jpg" width="700">
+        </div>
+      </div>
+      <div class="row">
+          <h3>Schedule</h3>
+          <table class="table table-striped">
+            <tr>
+              <th>Date</th>
+              <th>Lecture Slides</th>
+              <th>Lecture Notes</th>
+              <th>Assignment</th>
+            </tr>
+            <tr>
+              <td>02/15/17</td>
+              <td><a href="#">Lecture 1: Introduction to R</a></td>
+              <td><a href="#">Lecture 1: Introduction to R</a></td>
+              <td><a href="#">Assignment 1</a></td>
+            </tr>
+            <!-- <tr>
+              <td>02/22/17</td>
+              <td><a href="#">Lecture 2: Data Wrangling</a></td>
+              <td><a href="#">Lecture 2: Data Wrangling</a></td>
+              <td><a href="#">Assignment 2</a></td>
+            </tr> <tr>
+              <td>03/01/17</td>
+              <td><a href="#">Lecture 3: Data Visualization</a></td>
+              <td><a href="#">Lecture 3: Data Visualization</a></td>
+              <td><a href="#">Assignment 3</a></td>
+            </tr> <tr>
+              <td>03/08/17</td>
+              <td><a href="#">Lecture 4: Linear Regression</a></td>
+              <td><a href="#">Lecture 4: Linear Regression</a></td>
+              <td><a href="#">Project 1</a></td>
+            </tr> <tr>
+              <td>03/15/17</td>
+              <td><a href="#">Lecture 5: Logistic Regression</a></td>
+              <td><a href="#">Lecture 5: Logistic Regression</a></td>
+              <td><a href="#">Project 1</a></td>
+            </tr> <tr>
+              <td>03/22/17</td>
+              <td><a href="#">Lecture 6: Classification</a></td>
+              <td><a href="#">Lecture 6: Classification</a></td>
+              <td><a href="#">Project 1</a></td>
+            </tr> <tr>
+              <td>03/29/17</td>
+              <td><a href="#">Lecture 7: Unsupervised Learning</a></td>
+              <td><a href="#">Lecture 7: Unsupervised Learning</a></td>
+              <td><a href="#">Project 2</a></td>
+            </tr> <tr>
+              <td>04/07/17</td>
+              <td><a href="#">Lecture 8: Model Selection and Optimization</a></td>
+              <td><a href="#">Lecture 8: Model Selection and Optimization</a></td>
+              <td><a href="#">Project 2</a></td>
+            </tr> <tr>
+              <td>04/15/17</td>
+              <td><a href="#">Lecture 9: Meta-Learning </a></td>
+              <td><a href="#">Lecture 9: Meta-Learning</a></td>
+              <td><a href="#">Project 2</a></td>
+            </tr>  <tr>
+              <td>04/22/17</td>
+              <td><a href="#">Lecture 10: Text Analysis</a></td>
+              <td><a href="#">Lecture 10: Text Analysis</a></td>
+              <td><a href="#">Project 2</a></td>
+            </tr> <tr>
+              <td>04/29/17</td>
+              <td><a href="#">Lecture 11: Big Data</a></td>
+              <td><a href="#">Lecture 11: Big Data</a></td>
+              <td><a href="#">Project 2</a></td>
+            </tr> -->
+          </table>
+        </div>
+    </div>
 </html>
